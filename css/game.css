@@ -71,6 +71,10 @@ header {
 }
 
 @media (max-width: 600px) {
+  header {
+    font-size: .8rem;
+  }
+
   .grid {
     grid-template-columns: repeat(4, 1fr);
     gap: 5px;
