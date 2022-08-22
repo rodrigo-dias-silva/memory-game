@@ -14,7 +14,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 95%;
+  width: 90%;
   max-width: 800px;
   background: rgba(255, 255, 255, .5);
   font-size: 1.2rem;
@@ -27,7 +27,7 @@ header {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 15px;
-  width: 95%;
+  width: 90%;
   max-height: 90vh;
   max-width: 800px;
   padding-bottom: 30px;
@@ -72,11 +72,13 @@ header {
 
 @media (max-width: 600px) {
   header {
-    font-size: .8rem;
+    font-size: .6rem;
+    padding: 1rem;
+    margin: 1rem auto;
   }
 
   .grid {
     grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
+    gap: 4px;
   }
 }
